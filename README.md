@@ -7,16 +7,16 @@
 Install the dependencies.
 
 ```sh
-pip install django
-pip install djangorestframework
-pip install djangorestframework-simplejwt
-pip install -U drf-yasg
+$pip install django
+$pip install djangorestframework
+$pip install djangorestframework-simplejwt
+$pip install -U drf-yasg
 ```
 
 or (in the project)
 
 ```sh
-pip install -r requirements.txt
+$pip install -r requirements.txt
 ```
 
 
@@ -27,7 +27,7 @@ Open your favorite Terminal and run these commands in the project.
 First Command:
 
 ```sh
-$python manage.py makemigartions
+$python manage.py makemigrations
 ```
 
 Second Command:  _make the migrations to the database_
